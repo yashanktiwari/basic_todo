@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+  </head>
+  <body>
+    <h1>Todo</h1>
+
+    <div id="inputArea">
+      <input
+        type="text"
+        name="task"
+        id="inputTask"
+        placeholder="Enter the task..."
+      />
+      <input type="button" value="Add Task ✅" id="btnAddTask" />
+    </div>
+
+    <div id="lists">
+      <h3>New Task List</h3>
+      <ul id="newTasks"></ul>
+
+      <h3>Completed Task List</h3>
+      <ul id="completedTasks"></ul>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
