@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <img
+        src="img1.jpg"
+        alt="img1"
+        data-src="img1.jpg"
+        class="image"
+        srcset=""
+      />
+      <img
+        src="img2.jpeg"
+        alt="img1"
+        data-src="img2.jpeg"
+        class="image"
+        srcset=""
+      />
+      <img
+        src="img3.jpg"
+        alt="img1"
+        data-src="img3.jpg"
+        class="image"
+        srcset=""
+      />
+      <img
+        src="img4.jpg"
+        alt="img1"
+        data-src="img4.jpg"
+        class="image"
+        srcset=""
+      />
+    </div>
+
+    <div id="dynamicImageDiv">
+      <button type="button" id="deleteButton">x</button>
+      <img src="" alt="" id="dynamicImage" />
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>

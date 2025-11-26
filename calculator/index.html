@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="text" id="calculatorInput" />
+
+    <div class="operatorOuterDiv">
+      <div id="add" data-value="+" class="operator">+</div>
+      <div id="sub" data-value="-" class="operator">-</div>
+      <div id="mul" data-value="*" class="operator">*</div>
+      <div id="div" data-value="/" class="operator">/</div>
+      <div id="equal" data-value="=" class="operator">=</div>
+    </div>
+
+    <div class="outerDiv">
+      <div class="innerDiv">
+        <div id="n1" data-value="1" class="number">1</div>
+        <div id="n2" data-value="2" class="number">2</div>
+        <div id="n3" data-value="3" class="number">3</div>
+      </div>
+      <div class="innerDiv">
+        <div id="n4" data-value="4" class="number">4</div>
+        <div id="n5" data-value="5" class="number">5</div>
+        <div id="n6" data-value="6" class="number">6</div>
+      </div>
+      <div class="innerDiv">
+        <div id="n7" data-value="7" class="number">7</div>
+        <div id="n8" data-value="8" class="number">8</div>
+        <div id="n9" data-value="9" class="number">9</div>
+      </div>
+      <div class="zeroDiv">
+        <div id="n0" data-value="0" class="number">0</div>
+        <div id="n0" data-value="." class="number">.</div>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
